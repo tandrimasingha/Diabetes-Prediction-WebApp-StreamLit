@@ -32,6 +32,7 @@ def main():
     
     # giving title
     st.title('Diabetes Prediction Web App')
+    st.image("diabetes.png")
     
     #getting the input data from the user
     
