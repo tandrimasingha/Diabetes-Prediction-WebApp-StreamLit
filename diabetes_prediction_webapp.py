@@ -32,7 +32,7 @@ def main():
     
     # giving title
     st.title('Diabetes Prediction Web App')
-    st.image("diabetes.png",width=400)
+    st.image("diabetes.png",width=200)
     
     #getting the input data from the user
     
