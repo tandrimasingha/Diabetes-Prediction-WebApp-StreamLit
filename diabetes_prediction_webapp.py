@@ -8,7 +8,7 @@ Created on Fri Dec 31 12:21:49 2021
 import numpy as np
 import pickle
 import streamlit as st
-loaded_model = pickle.load(open('F:/Deploying Models/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 # creating a function for prediction
 def diabetes_prediction(input_data):
